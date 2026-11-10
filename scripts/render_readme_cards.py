@@ -104,6 +104,9 @@ BASE_CSS = """
 @keyframes blockBlast{0%,1%{opacity:1;transform:scale(1);filter:none}3%{opacity:1;transform:scale(1.35);filter:brightness(3.5)}6%,28%{opacity:0;transform:scale(0.1)}33%{opacity:0.8;transform:scale(1.2);filter:brightness(1.8)}37%,100%{opacity:1;transform:scale(1);filter:none}}
 @keyframes blockBlastDim{0%,1%{opacity:1;transform:scale(1)}3%{opacity:0.8;transform:scale(1.15);filter:brightness(2.0)}6%,28%{opacity:0.08;transform:scale(0.2)}33%{opacity:0.7;transform:scale(1.1)}37%,100%{opacity:1;transform:scale(1)}}
 @keyframes sparkFlash{0%,2%{opacity:0;transform:scale(0)}3%{opacity:1;transform:scale(1.6) rotate(45deg)}5%{opacity:0;transform:scale(2.2) rotate(90deg)}6%,100%{opacity:0}}
+@keyframes coinSpinBob{0%,100%{transform:translateY(0) scaleX(1)}25%{transform:translateY(-4px) scaleX(0.25)}50%{transform:translateY(-7px) scaleX(1)}75%{transform:translateY(-3px) scaleX(0.25)}}
+@keyframes starPulseBob{0%,100%{transform:translateY(0) scale(1) rotate(-3deg);filter:drop-shadow(0 0 2px #ffd700)}50%{transform:translateY(-6px) scale(1.15) rotate(3deg);filter:drop-shadow(0 0 8px #ffd700)}}
+@keyframes flamePopBob{0%,100%{transform:translateY(0) scale(0.9)}50%{transform:translateY(-7px) scale(1.2);filter:drop-shadow(0 0 6px #ff4757)}}
 
 .r{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) both;transform-box:fill-box}
 .f{opacity:0;animation:fade .9s ease-out both}
@@ -137,9 +140,12 @@ BASE_CSS = """
 .bhit{transform-box:fill-box;transform-origin:center;animation:blockBlast 8.0s ease-out infinite}
 .bhit-dim{transform-box:fill-box;transform-origin:center;animation:blockBlastDim 8.0s ease-out infinite}
 .sflash{transform-box:fill-box;transform-origin:center;animation:sparkFlash 8.0s ease-out infinite}
+.coinbob{transform-box:fill-box;transform-origin:center;animation:coinSpinBob 2s ease-in-out infinite}
+.starbob{transform-box:fill-box;transform-origin:center;animation:starPulseBob 1.8s ease-in-out infinite}
+.flamebob{transform-box:fill-box;transform-origin:center;animation:flamePopBob 1.6s ease-in-out infinite}
 
 @media (prefers-reduced-motion: reduce){
-  .r,.f,.g,.p,.pf,.live,.n,.rg,.flame,.flamecore,.gp,.blk,.st1,.st2,.abob,.bbob,.bshield,.bsurge,.cpulse,.stream,.spatrol,.burst,.sring,.flaser,.thrust,.radar,.ssweep,.bbolt,.bhit,.bhit-dim,.sflash{animation:none!important;opacity:1!important;transform:none!important}
+  .r,.f,.g,.p,.pf,.live,.n,.rg,.flame,.flamecore,.gp,.blk,.st1,.st2,.abob,.bbob,.bshield,.bsurge,.cpulse,.stream,.spatrol,.burst,.sring,.flaser,.thrust,.radar,.ssweep,.bbolt,.bhit,.bhit-dim,.sflash,.coinbob,.starbob,.flamebob{animation:none!important;opacity:1!important;transform:none!important}
   .sh,.rg,.flaser,.stream,.radar,.bbolt,.sflash{display:none}
 }
 """
@@ -215,9 +221,26 @@ def hero(data):
   {''.join(portrait_lines)}
 </g>"""
 
+    hero_defs = """
+<defs>
+  <!-- Technical Blueprint Graph Grid (Fine 20px x 20px Graph Paper Lines) -->
+  <pattern id="hero-blueprint-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#18181b" stroke-width="0.75" opacity="0.075"/>
+  </pattern>
+  <!-- Soft Ambient Royal Blue Corner Glow -->
+  <radialGradient id="hero-corner-glow" cx="92%" cy="8%" r="65%">
+    <stop offset="0%" stop-color="#2563eb" stop-opacity="0.045"/>
+    <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+  </radialGradient>
+</defs>"""
+
     body = f"""
 <!-- Clean Ivory / Off-White Paper Background -->
 <rect width="{W}" height="430" rx="16" fill="#f8f8f7" stroke="#e6e6e1"/>
+
+<!-- Technical Blueprint Grid & Corner Atmosphere -->
+<rect width="{W}" height="430" rx="16" fill="url(#hero-blueprint-grid)"/>
+<rect width="{W}" height="430" rx="16" fill="url(#hero-corner-glow)"/>
 
 <!-- Role Header Pill -->
 <g class="r" {d(0.05)}>
@@ -243,7 +266,7 @@ def hero(data):
 {portrait_markup}
 """
     write("hero.svg", svg(W, 430, body, ["serif", "serif-i", "sans", "mono"],
-                          f"{DISPLAY_NAME_FIRST} {DISPLAY_NAME_LAST} - {ROLE}"))
+                          f"{DISPLAY_NAME_FIRST} {DISPLAY_NAME_LAST} - {ROLE}", defs=hero_defs))
 
 # ---- 2 · Blue/Green Arcade Contribution Heatmap ("Quest Map") ----------------
 ARCADE_COLORS = ["#161b22", "#0e4429", "#006d32", "#26a641", NEON_GREEN]
@@ -268,14 +291,14 @@ def make_heatmap_player_ship():
         '<polygon points="1,12 3,17 5,12" fill="#ff9900"/>'
         '<polygon points="2,12 3,15 4,12" fill="#ffff00"/>'
         '</g>'
-        '<!-- Continuous Dual Laser Salvos (Alternating High-Speed Bolts Firing Upward) -->'
+        '<!-- Continuous Dual Laser Salvos (Alternating High-Speed Bolts Firing Upward into Blocks) -->'
         '<g class="bbolt">'
-        f'<rect x="-12" y="-12" width="2.5" height="14" rx="1" fill="{NEON_GREEN}"/>'
-        f'<rect x="9.5" y="-12" width="2.5" height="14" rx="1" fill="{NEON_GREEN}"/>'
+        f'<rect x="-12" y="-14" width="2.5" height="16" rx="1" fill="{NEON_GREEN}"/>'
+        f'<rect x="9.5" y="-14" width="2.5" height="16" rx="1" fill="{NEON_GREEN}"/>'
         '</g>'
         '<g class="bbolt" style="animation-delay:-0.175s">'
-        f'<rect x="-12" y="-12" width="2.5" height="14" rx="1" fill="{NEON_CYAN}"/>'
-        f'<rect x="9.5" y="-12" width="2.5" height="14" rx="1" fill="{NEON_CYAN}"/>'
+        f'<rect x="-12" y="-14" width="2.5" height="16" rx="1" fill="{NEON_CYAN}"/>'
+        f'<rect x="9.5" y="-14" width="2.5" height="16" rx="1" fill="{NEON_CYAN}"/>'
         '</g>'
         '</g>'
     )
@@ -286,7 +309,7 @@ def heatmap(data):
         return
     first = datetime.date.fromisoformat(days[0]["date"])
     lead = (first.weekday() + 1) % 7
-    cell, step, gx, gy = 12, 15, 44, 102
+    cell, step, gx, gy = 12, 15, 44, 98
     cells, months, seen, sparks = [], [], set(), []
 
     for i, day in enumerate(days):
@@ -298,19 +321,18 @@ def heatmap(data):
             months.append((col, date.strftime("%b").upper()))
         c = day["count"]
 
-        # Space shooter hit & disappearing/reappearing animation synchronized with player ship sweep
-        if 2 <= col <= 50:
+        # Only active green blocks blast & disappear when shot; empty cells remain stable grid
+        if 2 <= col <= 50 and c > 0:
             t_delay = (col - 2) / 11.833
-            cell_cls = "bhit" if c > 0 else "bhit-dim"
+            cell_cls = "bhit"
             cell_anim = f'animation-delay:{t_delay:.2f}s'
-            if c > 0:
-                sparks.append(
-                    f'<polygon class="sflash" style="animation-delay:{t_delay:.2f}s" '
-                    f'transform="translate({gx + col * step + 6}, {gy + row * step + 6})" '
-                    f'points="0,-6 1.8,-1.8 6,0 1.8,1.8 0,6 -1.8,1.8 -6,0 -1.8,-1.8" fill="#ffffff"/>'
-                )
+            sparks.append(
+                f'<polygon class="sflash" style="animation-delay:{t_delay:.2f}s" '
+                f'transform="translate({gx + col * step + 6}, {gy + row * step + 6})" '
+                f'points="0,-6 1.8,-1.8 6,0 1.8,1.8 0,6 -1.8,1.8 -6,0 -1.8,-1.8" fill="#ffffff"/>'
+            )
         else:
-            delay = 1.0 + col * 0.022 + row * 0.014
+            delay = 0.8 + col * 0.015 + row * 0.010
             cell_cls = "pf" if c > 0 else "p"
             cell_anim = f'animation-delay:{delay:.2f}s'
 
@@ -324,16 +346,19 @@ def heatmap(data):
     right = gx + ncols * step - 3
     sheen_w = ncols * step
     ship_y = gy + 7 * step + 20
-    labels_y = ship_y + 24
-    h = labels_y + 24
+    status_y = ship_y + 24
+    h = status_y + 18
 
+    # Month Timeline Header (Positioned cleanly right above the grid)
     labels = "".join(
-        f'<text x="{gx + col * step}" y="{labels_y + 4}" font-family="{PIXEL}" font-size="9" fill="{MUTED_PIXEL}">{m}</text>'
+        f'<text x="{gx + col * step}" y="{gy - 8}" font-family="{PIXEL}" font-size="8.5" fill="{MUTED_PIXEL}">{m}</text>'
         for col, m in months if col < ncols - 12
     )
+
+    # Bottom Legend
     legend_x = right - len(ARCADE_COLORS) * 14
     legend = "".join(
-        f'<rect x="{legend_x + i * 14}" y="{labels_y - 6}" width="11" height="11" rx="2" fill="{c}"/>'
+        f'<rect x="{legend_x + i * 14}" y="{status_y - 8}" width="11" height="11" rx="2" fill="{c}"/>'
         for i, c in enumerate(ARCADE_COLORS)
     )
 
@@ -349,29 +374,39 @@ def heatmap(data):
 """
     body = f"""
 <rect width="{W}" height="{h}" rx="12" fill="{ARCADE_BG}" stroke="{ARCADE_FRAME}"/>
-<text class="r" {d(0.8)} x="42" y="55" font-family="{PIXEL}" font-size="16" fill="{ARCADE_GOLD}">WORLD 1-1: <tspan fill="{NEON_GREEN}">COMMIT VALLEY</tspan></text>
-<text class="f" {d(0.8)} x="{right}" y="52" text-anchor="end" font-family="{PIXEL}" font-size="10" fill="{ARCADE_GOLD}">★ COIN × {data['total_contributions']}</text>
-<text class="f" {d(1.0)} x="42" y="80" font-family="{MONO}" font-size="11" fill="{MUTED_PIXEL}">SPACE SHOOTER // BLASTING &amp; CLEARING 368 BLOCKS ACROSS COMMIT VALLEY</text>
+<text class="r" {d(0.8)} x="42" y="46" font-family="{PIXEL}" font-size="15" fill="{ARCADE_GOLD}">WORLD 1-1: <tspan fill="{NEON_GREEN}">COMMIT VALLEY</tspan></text>
+<text class="f" {d(0.8)} x="{right}" y="44" text-anchor="end" font-family="{PIXEL}" font-size="9.5" fill="{ARCADE_GOLD}">★ COIN × {data['total_contributions']}</text>
+<text class="f" {d(1.0)} x="42" y="66" font-family="{MONO}" font-size="10.5" fill="{MUTED_PIXEL}">SPACE SHOOTER // BLASTING &amp; CLEARING {data['total_contributions']} ACTIVE BLOCKS</text>
 
-<!-- Contribution Blocks Matrix (Disappearing when shot & respawning in infinite loop) -->
+<!-- Month Timeline (Above Grid) -->
+<g class="f" {d(1.1)}>{labels}</g>
+
+<!-- Contribution Blocks Matrix -->
 {''.join(cells)}
 
-<!-- Impact Sparks when Blocks are Blasted -->
+<!-- Impact Sparks when Active Blocks are Hit -->
 {''.join(sparks)}
 
 <!-- Ambient Scanning Grid Sheen Wave -->
 <rect class="sh" clip-path="url(#grid-clip)" x="{gx}" y="{gy}" width="220" height="{7 * step}" fill="url(#grid-sheen)"/>
 
-<!-- Space Shooter Starfighter Patrolling & Blasting Blocks -->
-<g class="ssweep" transform="translate(0, {ship_y})">
-  {make_heatmap_player_ship()}
+<!-- Defense Flight Runway Barrier -->
+<line x1="{gx}" y1="{gy + 7 * step + 6}" x2="{right}" y2="{gy + 7 * step + 6}" stroke="#21262d" stroke-dasharray="3,3"/>
+
+<!-- Space Shooter Starfighter Patrolling below Blocks (Properly Nested in Y-lane) -->
+<g transform="translate(0, {ship_y})">
+  <g class="ssweep">
+    {make_heatmap_player_ship()}
+  </g>
 </g>
 
-<!-- Timeline Labels & Legend -->
-<g class="f" {d(2.2)}>{labels}
-<text x="{legend_x - 8}" y="{labels_y + 4}" text-anchor="end" font-family="{PIXEL}" font-size="8" fill="{MUTED_PIXEL}">MIN</text>
-{legend}
-<text x="{legend_x + len(ARCADE_COLORS) * 14 + 4}" y="{labels_y + 4}" font-family="{PIXEL}" font-size="8" fill="{MUTED_PIXEL}">MAX</text></g>
+<!-- Runway Floor Status & Legend -->
+<g class="f" {d(2.2)}>
+  <text x="44" y="{status_y}" font-family="{PIXEL}" font-size="8" fill="{NEON_GREEN}">▲ P1 DEFENDER // PATROL SWEEP ACTIVE</text>
+  <text x="{legend_x - 8}" y="{status_y}" text-anchor="end" font-family="{PIXEL}" font-size="8" fill="{MUTED_PIXEL}">MIN</text>
+  {legend}
+  <text x="{legend_x + len(ARCADE_COLORS) * 14 + 4}" y="{status_y}" font-family="{PIXEL}" font-size="8" fill="{MUTED_PIXEL}">MAX</text>
+</g>
 """
     write("heatmap.svg", svg(W, h, body, ["pixel", "mono"],
                              f'World Map: {data["total_contributions"]:,} blocks cleared', defs=sheen_defs))
@@ -776,36 +811,75 @@ def tile(name, label, item_name, color, fg, num, suffix, caption, delay, index, 
     write(f"{name}.svg", svg(TILE_W, TILE_H, body, ["pixel", "sans"],
                              f"{label}: {num} {suffix}", left=4 * index, right=8 - 4 * index, bottom=BOTTOM, defs=defs))
 
+def make_interactive_warp_pipe(x, y, item_type="coin", color="#ffd700", scale=1.0):
+    pipe_markup = f"""
+<g transform="translate({x:.1f}, {y:.1f}) scale({scale})">
+  <rect x="0" y="8" width="22" height="7" rx="1.5" fill="#00e55b" stroke="#008037" stroke-width="0.8"/>
+  <rect x="2" y="8" width="4" height="7" fill="#55ff88"/>
+  <rect x="3" y="15" width="16" height="12" fill="#00cc44" stroke="#008037" stroke-width="0.8"/>
+  <rect x="5" y="15" width="3" height="12" fill="#55ff88"/>
+</g>"""
+    if item_type == "coin":
+        item_markup = f"""
+<g class="coinbob" transform="translate({x + 6*scale:.1f}, {y - 2*scale:.1f}) scale({scale})">
+  <ellipse cx="5" cy="5" rx="4.5" ry="5.5" fill="#ffd700" stroke="#d35400" stroke-width="0.7"/>
+  <ellipse cx="5" cy="5" rx="2" ry="4" fill="#fff3a8"/>
+</g>"""
+    elif item_type == "star":
+        item_markup = f"""
+<g class="starbob" transform="translate({x + 3*scale:.1f}, {y - 4*scale:.1f}) scale({scale * 0.85})">
+  <polygon points="9,0 12,6 18,7 14,12 15,18 9,14 3,18 4,12 0,7 6,6" fill="#ffd700" stroke="#d35400" stroke-width="0.6"/>
+  <rect x="7" y="7" width="1.2" height="3" fill="#000000"/>
+  <rect x="9.8" y="7" width="1.2" height="3" fill="#000000"/>
+</g>"""
+    else:  # flame / fireball
+        item_markup = f"""
+<g class="flamebob" transform="translate({x + 4*scale:.1f}, {y - 4*scale:.1f}) scale({scale * 0.85})">
+  <circle cx="8" cy="8" r="6" fill="#ff4757"/>
+  <circle cx="8" cy="8" r="3.5" fill="#ffa502"/>
+  <circle cx="8" cy="8" r="1.5" fill="#ffffff"/>
+</g>"""
+    return item_markup + pipe_markup
+
 # ---- 5 · Featured Projects (Warp Zone Stages) --------------------------------
 REPO_W = 880 / 3 - 8
-REPO_H = 175
+REPO_H = 215
 
 PROJECTS = [
     {
         "id": "pandale",
-        "stage": "WORLD 1-1 // OVERWORLD",
+        "stage": "WORLD 1-1",
+        "world_name": "OVERWORLD",
         "name": "PANDALE",
-        "desc": "Interactive event discovery and cultural festival navigation platform.",
-        "tag": "PIPE 1 • TS ARCADE",
+        "subtitle": "Event Discovery Platform",
+        "desc": "Interactive cultural festival navigation, live event exploration, and smart crowd maps.",
+        "tags": ["TypeScript", "Next.js", "Maps API"],
         "color": NEON_GREEN,
+        "item": "coin",
         "url": "https://github.com/JoyTheSloth/pandale"
     },
     {
         "id": "mabbele-studios",
-        "stage": "WORLD 1-2 // COIN VAULT",
+        "stage": "WORLD 1-2",
+        "world_name": "COIN VAULT",
         "name": "MABBELE STUDIOS",
-        "desc": "Creative digital production studio delivering high-craft web experiences.",
-        "tag": "PIPE 2 • LIVE RUN",
+        "subtitle": "Creative Production House",
+        "desc": "Digital studio delivering high-craft interactive web experiences and generative UI.",
+        "tags": ["Creative Dev", "WebGL", "Production"],
         "color": ARCADE_GOLD,
+        "item": "star",
         "url": "https://mabbele-studios.vercel.app"
     },
     {
         "id": "job-dalal",
-        "stage": "WORLD 8-4 // BOWSER CASTLE",
+        "stage": "WORLD 8-4",
+        "world_name": "BOWSER CASTLE",
         "name": "JOB DALAL",
-        "desc": "Modern recruitment portal and smart job discovery platform.",
-        "tag": "STAGE CLEAR • NEXTJS",
+        "subtitle": "Smart Career Portal",
+        "desc": "Modern recruitment portal with intelligent matching, resume indexing, and discovery.",
+        "tags": ["Next.js", "Full-Stack", "Database"],
         "color": HEART_RED,
+        "item": "flame",
         "url": "https://github.com/JoyTheSloth/job-dalal"
     },
 ]
@@ -826,48 +900,101 @@ def wrap_desc(text, max_chars=34):
             cur_len = len(w)
     if cur:
         lines.append(" ".join(cur))
-    return lines[:2]
+    return lines[:3]
 
 def repo_card(i, proj):
     delay = 3.2 + i * 0.15
     name = proj["name"]
     stage = proj["stage"]
+    world_name = proj["world_name"]
+    subtitle = proj["subtitle"]
     desc = proj["desc"]
-    tag = proj["tag"]
+    tags = proj["tags"]
     color = proj["color"]
+    item = proj["item"]
     file_id = proj["id"]
 
     lines = wrap_desc(desc, 34)
     line1 = lines[0] if len(lines) > 0 else ""
     line2 = lines[1] if len(lines) > 1 else ""
+    line3 = lines[2] if len(lines) > 2 else ""
+
+    # Tech badges
+    tag_elements = []
+    tx = 16
+    for t in tags:
+        tw = len(t) * 6.5 + 12
+        tag_elements.append(
+            f'<rect x="{tx:.1f}" y="146" width="{tw:.1f}" height="18" rx="3" fill="#0d1420" stroke="#1e293b"/>'
+            f'<text x="{tx + 6:.1f}" y="158" font-family="{MONO}" font-size="9" fill="#cbd5e1">{t}</text>'
+        )
+        tx += tw + 6
 
     body = f"""
-<rect width="{REPO_W}" height="{REPO_H}" rx="10" fill="{ARCADE_CARD}" stroke="{ARCADE_FRAME}"/>
-<!-- Warp Zone Header -->
-<rect x="0" y="0" width="{REPO_W}" height="26" fill="#18202c"/>
-<text x="14" y="17" font-family="{PIXEL}" font-size="8" fill="{color}">{stage}</text>
-{make_warp_pipe(REPO_W - 28, 5, scale=0.85)}
+<rect width="{REPO_W}" height="{REPO_H}" rx="12" fill="{ARCADE_CARD}" stroke="{ARCADE_FRAME}"/>
+<!-- Top Stage Color Accent Line -->
+<rect x="0" y="0" width="{REPO_W}" height="3" fill="{color}"/>
 
+<!-- Stage Pill & World Tag -->
 <g class="r" {d(delay)}>
-  <text x="16" y="52" font-family="{PIXEL}" font-size="12" fill="{INK_LIGHT}">{escape(name)}</text>
-  <text x="16" y="86" font-family="{SANS}" font-size="13" fill="{MUTED_PIXEL}">{escape(line1)}</text>
-  <text x="16" y="108" font-family="{SANS}" font-size="13" fill="{MUTED_PIXEL}">{escape(line2)}</text>
-  
-  <text x="16" y="{REPO_H - 18}" font-family="{PIXEL}" font-size="8" fill="{color}">► {escape(tag)}</text>
-  <text class="n" x="{REPO_W - 24}" y="{REPO_H - 18}" text-anchor="end" font-family="{PIXEL}" font-size="9" fill="{color}">WARP ►</text>
+  <rect x="14" y="14" width="76" height="18" rx="3" fill="#0d1420" stroke="{color}" stroke-opacity="0.45"/>
+  <text x="20" y="26" font-family="{PIXEL}" font-size="7.5" fill="{color}">{stage}</text>
+  <text x="96" y="26" font-family="{PIXEL}" font-size="7.5" fill="{MUTED_PIXEL}">// {world_name}</text>
+</g>
+
+<!-- Animated Mario Warp Pipe with Hopping Item -->
+{make_interactive_warp_pipe(REPO_W - 38, 10, item_type=item, color=color, scale=0.88)}
+
+<!-- Project Title & Subtitle -->
+<g class="r" {d(delay + 0.1)}>
+  <text x="16" y="56" font-family="{PIXEL}" font-size="12.5" fill="#ffffff">{escape(name)}</text>
+  <text x="16" y="72" font-family="{MONO}" font-size="10" fill="{color}">// {escape(subtitle)}</text>
+</g>
+
+<!-- Multi-line Clean Description -->
+<g class="f" {d(delay + 0.2)}>
+  <text x="16" y="93" font-family="{SANS}" font-size="12" fill="#94a3b8">{escape(line1)}</text>
+  <text x="16" y="111" font-family="{SANS}" font-size="12" fill="#94a3b8">{escape(line2)}</text>
+  <text x="16" y="129" font-family="{SANS}" font-size="12" fill="#94a3b8">{escape(line3)}</text>
+</g>
+
+<!-- Tech Badges -->
+<g class="f" {d(delay + 0.25)}>
+  {''.join(tag_elements)}
+</g>
+
+<!-- Divider Line -->
+<line x1="14" y1="174" x2="{REPO_W - 14}" y2="174" stroke="#1d2633"/>
+
+<!-- Footer Action Button -->
+<g class="r" {d(delay + 0.3)}>
+  <text x="16" y="196" font-family="{PIXEL}" font-size="7.5" fill="{MUTED_PIXEL}">STAGE CLEAR ►</text>
+  <rect x="{REPO_W - 80:.1f}" y="184" width="66" height="20" rx="4" fill="#0d1420" stroke="{color}" stroke-width="1.2"/>
+  <text class="n" x="{REPO_W - 47:.1f}" y="197" text-anchor="middle" font-family="{PIXEL}" font-size="8.5" fill="{color}">WARP ↗</text>
 </g>
 """
-    write(f"repo-{file_id}.svg", svg(REPO_W, REPO_H, body, ["pixel", "sans"],
+    write(f"repo-{file_id}.svg", svg(REPO_W, REPO_H, body, ["pixel", "sans", "mono"],
                                     f"{name}: {desc}", left=4 * i, right=8 - 4 * i, bottom=BOTTOM))
 
 # ---- 6 · Section Title (Super Mario Warp Zone) --------------------------------
 def section_title(text, italic, theme):
     fg = NEON_GREEN if theme == "dark" else INK_LIGHT
-    body = (
-        f'<text class="r" {d(3.0)} x="2" y="38" font-family="{PIXEL}" font-size="13.5" fill="{fg}">★ {escape(text)} '
-        f'<tspan fill="{ARCADE_GOLD}">[{escape(italic).upper()}]</tspan> ★</text>'
-    )
-    write(f"title-coding-{theme}.svg", svg(W, 54, body, ["pixel"], f"{text} {italic}", bottom=6))
+    body = f"""
+<!-- Warp Zone Retro Arcade Banner -->
+<g class="r" {d(2.9)}>
+  <!-- Mario Warp Pipe Icon -->
+  <rect x="2" y="12" width="20" height="6" rx="1" fill="#00e55b" stroke="#008037" stroke-width="0.8"/>
+  <rect x="4" y="18" width="16" height="10" fill="#00cc44" stroke="#008037" stroke-width="0.8"/>
+  <!-- Centered Title -->
+  <text x="30" y="26" font-family="{PIXEL}" font-size="12.5" fill="{fg}">★ {escape(text)}</text>
+  <text x="286" y="26" font-family="{PIXEL}" font-size="10.5" fill="{ARCADE_GOLD}">[{escape(italic).upper()}]</text>
+  <!-- Mini Stage Instruction -->
+  <text x="{W - 4}" y="26" text-anchor="end" font-family="{MONO}" font-size="11" fill="{MUTED_PIXEL}">CHOOSE STAGE TO WARP ↗</text>
+  <!-- Divider -->
+  <line x1="2" y1="38" x2="{W - 2}" y2="38" stroke="#21262d" stroke-dasharray="3,3"/>
+</g>
+"""
+    write(f"title-coding-{theme}.svg", svg(W, 46, body, ["pixel", "mono"], f"{text} {italic}", bottom=8))
 
 # ---- Main Execution ----------------------------------------------------------
 if __name__ == "__main__":

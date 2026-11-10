@@ -33,6 +33,9 @@
 @keyframes blockBlast{0%,1%{opacity:1;transform:scale(1);filter:none}3%{opacity:1;transform:scale(1.35);filter:brightness(3.5)}6%,28%{opacity:0;transform:scale(0.1)}33%{opacity:0.8;transform:scale(1.2);filter:brightness(1.8)}37%,100%{opacity:1;transform:scale(1);filter:none}}
 @keyframes blockBlastDim{0%,1%{opacity:1;transform:scale(1)}3%{opacity:0.8;transform:scale(1.15);filter:brightness(2.0)}6%,28%{opacity:0.08;transform:scale(0.2)}33%{opacity:0.7;transform:scale(1.1)}37%,100%{opacity:1;transform:scale(1)}}
 @keyframes sparkFlash{0%,2%{opacity:0;transform:scale(0)}3%{opacity:1;transform:scale(1.6) rotate(45deg)}5%{opacity:0;transform:scale(2.2) rotate(90deg)}6%,100%{opacity:0}}
+@keyframes coinSpinBob{0%,100%{transform:translateY(0) scaleX(1)}25%{transform:translateY(-4px) scaleX(0.25)}50%{transform:translateY(-7px) scaleX(1)}75%{transform:translateY(-3px) scaleX(0.25)}}
+@keyframes starPulseBob{0%,100%{transform:translateY(0) scale(1) rotate(-3deg);filter:drop-shadow(0 0 2px #ffd700)}50%{transform:translateY(-6px) scale(1.15) rotate(3deg);filter:drop-shadow(0 0 8px #ffd700)}}
+@keyframes flamePopBob{0%,100%{transform:translateY(0) scale(0.9)}50%{transform:translateY(-7px) scale(1.2);filter:drop-shadow(0 0 6px #ff4757)}}
 
 .r{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) both;transform-box:fill-box}
 .f{opacity:0;animation:fade .9s ease-out both}
@@ -66,16 +69,34 @@
 .bhit{transform-box:fill-box;transform-origin:center;animation:blockBlast 8.0s ease-out infinite}
 .bhit-dim{transform-box:fill-box;transform-origin:center;animation:blockBlastDim 8.0s ease-out infinite}
 .sflash{transform-box:fill-box;transform-origin:center;animation:sparkFlash 8.0s ease-out infinite}
+.coinbob{transform-box:fill-box;transform-origin:center;animation:coinSpinBob 2s ease-in-out infinite}
+.starbob{transform-box:fill-box;transform-origin:center;animation:starPulseBob 1.8s ease-in-out infinite}
+.flamebob{transform-box:fill-box;transform-origin:center;animation:flamePopBob 1.6s ease-in-out infinite}
 
 @media (prefers-reduced-motion: reduce){
-  .r,.f,.g,.p,.pf,.live,.n,.rg,.flame,.flamecore,.gp,.blk,.st1,.st2,.abob,.bbob,.bshield,.bsurge,.cpulse,.stream,.spatrol,.burst,.sring,.flaser,.thrust,.radar,.ssweep,.bbolt,.bhit,.bhit-dim,.sflash{animation:none!important;opacity:1!important;transform:none!important}
+  .r,.f,.g,.p,.pf,.live,.n,.rg,.flame,.flamecore,.gp,.blk,.st1,.st2,.abob,.bbob,.bshield,.bsurge,.cpulse,.stream,.spatrol,.burst,.sring,.flaser,.thrust,.radar,.ssweep,.bbolt,.bhit,.bhit-dim,.sflash,.coinbob,.starbob,.flamebob{animation:none!important;opacity:1!important;transform:none!important}
   .sh,.rg,.flaser,.stream,.radar,.bbolt,.sflash{display:none}
 }
 </style>
 
+<defs>
+  <!-- Technical Blueprint Graph Grid (Fine 20px x 20px Graph Paper Lines) -->
+  <pattern id="hero-blueprint-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#18181b" stroke-width="0.75" opacity="0.075"/>
+  </pattern>
+  <!-- Soft Ambient Royal Blue Corner Glow -->
+  <radialGradient id="hero-corner-glow" cx="92%" cy="8%" r="65%">
+    <stop offset="0%" stop-color="#2563eb" stop-opacity="0.045"/>
+    <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+  </radialGradient>
+</defs>
 
 <!-- Clean Ivory / Off-White Paper Background -->
 <rect width="880" height="430" rx="16" fill="#f8f8f7" stroke="#e6e6e1"/>
+
+<!-- Technical Blueprint Grid & Corner Atmosphere -->
+<rect width="880" height="430" rx="16" fill="url(#hero-blueprint-grid)"/>
+<rect width="880" height="430" rx="16" fill="url(#hero-corner-glow)"/>
 
 <!-- Role Header Pill -->
 <g class="r" style="animation-delay:0.05s">
