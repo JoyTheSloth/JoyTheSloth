@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Profile README Preview - Joydeep Das (@JoyTheSloth)</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 880px;
+      width: 100%;
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 32px;
+      box-sizing: border-box;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .header-bar {
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #21262d;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header-bar h1 {
+      font-size: 16px;
+      margin: 0;
+      color: #8b949e;
+      font-weight: 400;
+    }
+    .header-bar h1 strong {
+      color: #58a6ff;
+    }
+    .btn-reload {
+      background: #238636;
+      color: white;
+      border: 1px solid rgba(240,246,252,0.1);
+      padding: 5px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .btn-reload:hover {
+      background: #2ea043;
+    }
+    /* GitHub markdown simulation */
+    .markdown-body {
+      width: 100%;
+      text-align: center;
+    }
+    .markdown-body a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .markdown-body img {
+      display: inline-block;
+      vertical-align: middle;
+      border: 0;
+    }
+    .footer-links {
+      margin-top: 24px;
+      font-size: 14px;
+      color: #8b949e;
+    }
+    .footer-links a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header-bar">
+      <h1>JoyTheSloth / <strong>README.md</strong></h1>
+      <button class="btn-reload" onclick="reloadCards()">Replay Animations ⟳</button>
+    </div>
+
+    <div class="markdown-body">
+      <a href="https://github.com/JoyTheSloth"><img src="./cards/hero.svg?v=14" width="100%" alt="Joydeep Das - Frontend & Creative Engineer" /></a><br>
+      <img src="./cards/heatmap.svg?v=14" width="100%" alt="Contribution graph in blue" /><br>
+      <img src="./cards/activity.svg?v=14" width="100%" alt="Monthly activity and streaks" /><br>
+      <a href="https://github.com/JoyTheSloth?tab=repositories"><img src="./cards/build.svg?v=14" width="33.333%" alt="BUILD" /></a><a href="https://github.com/JoyTheSloth"><img src="./cards/brand.svg?v=14" width="33.333%" alt="CRAFT" /></a><a href="https://github.com/JoyTheSloth"><img src="./cards/learn.svg?v=14" width="33.333%" alt="LEARN" /></a><br>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg?v=14" />
+        <img src="./cards/title-coding-light.svg?v=14" width="100%" alt="Featured projects" />
+      </picture><br>
+      <a href="https://github.com/JoyTheSloth/pandale"><img src="./cards/repo-pandale.svg?v=14" width="33.333%" alt="Pandale" /></a><a href="https://mabbele-studios.vercel.app"><img src="./cards/repo-mabbele-studios.svg?v=14" width="33.333%" alt="Mabbele Studios" /></a><a href="https://github.com/JoyTheSloth/job-dalal"><img src="./cards/repo-job-dalal.svg?v=14" width="33.333%" alt="Job Dalal" /></a>
+
+      <p class="footer-links">
+        <a href="https://github.com/JoyTheSloth">github.com/JoyTheSloth</a> &nbsp;/&nbsp;
+        <a href="https://github.com/JoyTheSloth?tab=repositories">repositories</a> &nbsp;/&nbsp;
+        <a href="https://github.com/JoyTheSloth?tab=stars">stars</a>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function reloadCards() {
+      const t = Date.now();
+      document.querySelectorAll('.markdown-body img').forEach(img => {
+        const base = img.src.split('?')[0];
+        img.src = base + '?t=' + t;
+      });
+      document.querySelectorAll('.markdown-body source').forEach(srcEl => {
+        const base = srcEl.srcset.split('?')[0];
+        srcEl.srcset = base + '?t=' + t;
+      });
+    }
+  </script>
+
+</body>
+</html>
+

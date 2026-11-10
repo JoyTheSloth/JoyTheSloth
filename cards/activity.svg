@@ -1,0 +1,415 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880.000" height="444" viewBox="0 0 880.000 444" role="img" aria-label="Commit Valley Space Shooter for JoyTheSloth">
+<title>Commit Valley Space Shooter for JoyTheSloth</title>
+<style>@font-face{font-family:'Silkscreen';font-style:normal;font-weight:400;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2');}@font-face{font-family:'Geist Mono';font-style:normal;font-weight:400;font-display:swap;src:url(data:font/woff;base64,d09GRgABAAAAABqgABAAAAAAJfwAAbN1AAAAAAAAAAAAAAAAAAAAAAAAAABHREVGAAAZ7AAAACIAAAAiAF4AgkdQT1MAABoQAAAAIAAAACBEdkx1R1NVQgAAGjAAAAApAAAAKrj6uPRPUy8yAAAXrAAAAFIAAABgVxsFiFNUQVQAABpcAAAAQQAAAEjniss3Y21hcAAAGAAAAAC2AAAA4i9HS1NnYXNwAAAZ5AAAAAgAAAAIAAAAEGdseWYAAAFsAAAUMQAAHaoHNyhRaGVhZAAAFqAAAAA2AAAANiz72fJoaGVhAAAXjAAAACAAAAAkBkgDRGhtdHgAABbYAAAAswAAAbwBbCQSbG9jYQAAFcAAAADgAAAA4Kidr45tYXhwAAAVoAAAAB0AAAAgAKMCW25hbWUAABjAAAABCgAAAgAxGkvKcG9zdAAAGcwAAAAWAAAAIP+fADNwcmVwAAAYuAAAAAcAAAAHaAaMhXiclVkLUFvXmb7nCiSBMSCEEG+j55VAloReV29AL/RAD/BFgBDExoCxYhMb24QS27W9jmMnrp0maTrNptmuk7iZJE2TdKf1pp2O2yau22aSdGbruuluNpvttjupx+uk3mkmNZf9z70Cg9NMZ4eR7tW95z//43z//3/nQJBEI0GQfvISISTKCcIqtUpVAgFNK+SNV/dfzX/3u5JWVNlKXlpykwtLJ3/OMISAyIGEASQkIKsCGYnVUierFQpVdksdvlFRVovDbtOqVPaVm9zlA/e291n8I6Yjex86nYz1xU/Px0Oh+Dx5aSZniOiE7X22fIHxOlzdjNvucBOI0C7fAC1XiBaCKFVqtXabwwF65CKtVqUUCmW1dXUwOS0XCpFxcN7nmx8cP16Xl2xxupI6XdLlz1aNSk9U587P7Ts/et+sMJkKHs2PHglmB0sP3E+QnA8W8KGckBY94F1YNT33XP5UInEqP5Cc2bdvJkle2vIPc3NPDTAPPPDAKbAOy9eA/AYsrZCt/OXQy+x5lGJfRRPkJea/Bv7AwNhJGNvM6eLH0vhLMokusPM6lGFfJi8N6Nk/DLBvFb1uB6+167y+020HDaGVqCh5JYnaEwdCXfNbeqZCVTlJuotO6dvTLmusnXz+00xJfWVnsnrLs4sQBPeOoDDA8FGw3+UbYL/2nNia2Qw6vUX7qrhISCiFCL5VEjkY6s0a0GlDNmtg98OKs99UKtHIkhuNKZXs0yCZAUlxMQrYILtCppJYZZlXXkEXXnmFIVsZZukDhoCRuuUbiIWR1bxfFM35YQdFtUIkjcx4SEYQj8cT2cPV3nsS4iwzOIiusrr5k4A3bJ8ZZAWECGui7ciKQFAhoNFJZCuwdVlk+8SLtB/sR3sAp4BVNONnc2siL1zxTDaZ7UBfgiETBrwyFniv5T3XCLDPgH4pdxUg4Qlx9thp3eljWfGJDKldehCkLpBRUDC/9C7IRtYiwIq4mCFaEllEG6qyi+z/VsH4ewXkaRA4VbK0DzCH19YCa1tFbFq/uhh5FKwqAG91lZGBOeDzHWD4bxqDmua+q7Pn5xfOZ7PnF+bPZ5meI2NjRwOBo2NjR3qIIq6xRxWEbB2uVRLJKrKvxme93tn4sQUmk2EWyEu2baHQNht7Dc2Eu3tCBMRZu3yKs1QA2aEGWwVWKfUZe/3kOnsPHsseO7/WZn23Qb5i9L2on/32jnWWa2KFyG3TSS6edWB5HY7Oak0RUQB+uYoykmtdiFzdc8wY1Zb09gprshJBg9342LF4KhU/Rl7au92SNAgqSryhN3+k0EvZD9Bc0OcPYAwaihXFvILBVtJajDrMfzvVQJeS80neSmIbEJ3YHxHmRKaExRJSbRrcEh/Vuwqx2IxPnBNqA+ZAqiUeHNqx2T9b7d8dFdrj2oZOlbKzQy6zxuzeUatnukfYEdR2WRUdCmm9d8DjHDJzOVHEtYggFMXcQeg3pPg35BzkzRmcmWBxM1dpscVctqxJG8OeI9l0IpHOHqk+s4jeYi3D+fwwvi5i2VaY3c3PbhVwuBbcvJL/Yf0P81cAmXPkmSX3mlFVq6O4kSqBVbArlQuUp/Kp8kAudSxeHwepXWRo6QfkYwBp89I7a/IH54AUxEEStw/L6xcnH3104uLrk1/9KppC29j/RC3sU+yTSMH++xq/xdhvXkqCyHcnzp2buIqU6Bn2n1Afm2ffI9ZoKMMVBikgSEghs6DT7An0LrsfPZYlm5ns0u8YjH3H8k0Y2wq1E6TkPF5p2oYhKqK4xZXBqlqtMsgHvP7WSpLLOruIg/DvLRlj/9CrPhftrxip2pvbWqiuVgobK5SmelQtsme0jqj6nKPdWqHu6QglJOpQoNMoSoztm/rXmso4QnWdlJLeFNcEDca2cr1Co8fZCBaZOUyrVzAnUuFC5CfX5L3ddjuLku0Ry8aNpX1MWZkp0h6ZpunpRDCZ7OmMaDThima7ugoSln1X1mBuCx0cHDwYyhRG8ztNw37vCIepCGhshhi0/NX+Iavlmya0DTdfBDx574bhil5rbMuWmDVRMbzBP14ROsQwB8MdAx6h3bUzn9/p9Qo9GLEkVPGbXBVf9ef2/JJiP1pTx0Ab2sC5EOkIm8rKmL7SjRXWiMYc1mginT3JZAXvQpu5QYa0S+6FKrW9OWMe8fqHTTvzowWssQv8aQB/5Bip62qmTLHKAAQKTh+yJHZ7PHfHwgUve7i0P2wLbszJDvwP0gpTHl+66FbPwZGGwWynTtQ7isLJaKJYefhKznVAmwMggs2XCABu/xJLPP/8JsUH6MekrTcRpxRLb6LL8Ti2zbs8DnKtRBuxeX1Xs/MAW6EsdpytQgHY6liNi96V90Pgfb5oUsrYgjs97h0B50hNxjmTCA0gpAkbI8n0OW3EKNR0uN3Zdktgf6JvX8BmYNgaYFGo8q4BOt1x18DAXUSxz4m5deH7XBFe0Mg4aMkkk0x5uTmid6X1DO3sBjbD/po0OJusox72BeRLxlNx9vXlZa6fm8mfQgbB+kLX3N1CFLu8mayBnsJ1eTmUKmjyKlXmV/qbaNP3vsfE0Tf1cdYZhxlmlwvoAjeDlp+Bs49/WkNUQl5ynBDIBUwCVHH2OYrSs39E3dHM43GlGf1RH1+6HksWGVb7an+VIKtIqqJEshyDyD2//O30SzPghAm1/Af79iezD+LVKPZ6bhU1kiL9hCCU4qIhUbcdOhpLsL9G77eSjW3qeCK2dK0Vr+NKPcJ1A2uS86VCruIrxkoMhWvvdElBeZnHaLIKy8u6zN1uprVN1iZlWhTwTdbMk55wKOCPDk+z30BMr6vJvZl9CTEhL3eDNeJyVcKhmtd4x3qBBgY0lNvjel9/O+P26gMUWfNAmcnX6hh14hWLJ1XBTvYnGIVuyJBWmKuKaPqrrIKvLhhzhthur3d3rPjd348/OCsgBSERmUOhDM52/MHzZpYLXDWVYY4vX40LTyc4sEvodbUrkyIrasd86SmzeSqt7+0sq3g8nE6HjUGNOvQ4+dyC0N+dOhyLHU41W5SV7CfvzoyNzRiGe3qGDaDNAtrEK9pKgXxWkmtTSERbBesKCylmKso6e/W8Nv+YtIJMfWgKqjVBIyh9HIkrlZZmXl23X7jAWnhNWGcRW82Ax3oO0SIMad4/LvEh/JRVlvuOXv+dd8Ricci1exdlb9a9E9eht/XxM8JwsG+Tx8B+oOPQk4H4Y8uN62vA3yQVjvCkq2RY3Nvl6anzupNDamOuJzBiEw8LFXa129noNg/k1PRdFeZ+i7DTqVTLW2XllXp/hzHabkoahc0dDUZlU5tUvFHvNYDjOIZcFTjDZ4BilS9YZQhnwGKyj1GqzrDt6Eo0jm6xJRpVnK9kCPcp9AnEo/azPENlx1ssUXqcoV3+KJPZWJ2ruHscDbI/Tsb6e5F36frfiXp6Vzt1Dce1+ab+5zfyTz2Vf4OsYUPoB0vXYQzMT4aKlYQbI+W4huDQznw4NZAK52cKkQiMj6A97MPotaXreCsFcg6QU4JckWfIacwzKJHjJ/888dDJyQs/mnj0UVSNyMuX2Vvsx1eugIQN8KQGiepixaFpFW8UgPekr7lJJG15I/+PX83/usprfzwukVpIMWh9bemFDh1ID4A+IUivYx0DsFd7DZ1jX0bDDNofZ9jTccyVLcDRtEWuDNilkRzJ/wa3X0D1Gfa/J5N7vd69ydQer3dPytJLUb2WzihFRacRW8KSc/zWdfT8vrnzOSZydGjkaCRydGToaGRNrSvHFRVzR47HwpYIW9r82latSRZhf47eJyvjdWbdkpthbnOpK4QCvALr6FUCL1qT2qJKUgQMy3RvodPb3NZlSgxtyFWc3BebodWD8e6hzSR6MPGFWWejwaLW0G2pqHDmoG3M50iHKGWkp4nXU4wInxHFhOADULTUdodWkZ1XjrT7DpaOCAe7O/pM7TGj06nxayKBYFiUK1/YEZ6mt/QPTQf2V98zLOxxNrjMJl8LU9epo10OkzCz3ZT1BPqraspnUqGtFo6tFHlmObERomRXwL4R9y2ZRiFBx9lnUDafzcJuveSJFHqP1TFPXEdb13Bu9WfyGdusksLeXbCGv6H28A5faU6c9oW3qIOm9qQkb0KL7K/aqqttXZtCO1z+3dWWnEfo9Q0mLDFKr0VnGfbT6k06Wddsb+89fq723Siui2mlgvPzr+z6RZ/PF42ZvZ6WnrvTXcN0Za7C4/EwJrJmA91vjcy4u+6JRrL9QXOfgYpWx85MDT9xINjeZxG3W4InpkrUPg20gdReHzOSjmepaGdnXwex5jRgYxElGFOVAtlF31yaPYzeD27zt87+9q1RJtX3+Neezq3NgBZCT9hXexAtX5cEIvqzHUm6rjtF5gL5PtKXcG7r6pqg434yORrY2xvJZTLp/lzEFQ563KFwtXk8nJyqqZUkA85hq3XYGUhKamumkuFxM9MT9CcS/mAPGnO5rF6v1eUi7owu4ozhe8sKMOk1vUa+wpG5BUft66LrdXsGjbeju6d3NbrkldiXpj8vvMOZ2FAxvIi4DjYUiEWIGu48susHFxfh6Y3lcTQDT6F2yvHRjkx0w+FY8J47t7jnRQJYFSeFbgFDgY0s7OjwdvYYfg5y+DnFPwH5IIF95savciFoQzAlzm0RXJFEIC7NlooEuYO/VG2d1P3+97rJrapfgh0kngX24FeAayuhktmKJYLL1dsIhAohwxOxm22UrjIEXAS2wV13x3q20010R1Nrxc6DP4sOttVr9K22UF9UGJh22/Ledr+tWaIxq34GijiP/gSW7+Z9If6E+yhq5jgs7HWlFA4CRctpuQgSVi6iLnknnnxywju9w7v9ySe3e3egZt3J+EndI4/wF4IoWd0p8qdEuANCtdfQClEpXAVwRfrj0ePsjyrQxQp2Dm4H8B0+LXojEnmDOzW6EIngDNi1/Ai6Rl7HayRHVrQLmTPsO7OC/K1n7nhbqoLX1+BlBt7idwvELfQ+SuB3NKTNApq5lU5zHOFVEna73IzwPIMupFIpeP4NmOsCzIX39zxZoGFTyrEENJkaVCgGU0yCUSqZxGz47JdjsS+fDfc+fDYaPXs2ul5aruKLOWXl2cXNohjDTTKLBaJnH+4tTsIx8pPoQ5DV8B2fK292bjO8uv3BSSurW9kzo0eGErVOh8NZmxgaHjJqnPG4U2McWtjaN9Nhkw/IbR0zfVtTRmM+MSQWioYTeaMxtV6PnD8OxqXBruVUFhk6d6gpwxUNVF7Ck7tiMRdMPryqcoGbeVgkFA9xM6/TiiN/GmLxJugRgT8KCXcMid5kL6LuGzdgbSJL5vVj5PxppeT0jRuoezZCvhO59Qyg8kP0PD64hRHB5U/JPsiIZ9E29B14UoK5ABJAZqoou1WARkrG69+rHy+B11Ozf/7zLPv32IpP4ec4jC6FHxROY+Chk5Vo218Khb/gvKxdfgT4zyUijHcApSu7xNupBb/xqQRcViqnSFRExGoLVfIAwZymeAZXbAboRV2Ciu/rMTF7AwP3uLTdOqVRXF6m6GiwOHXB9nq1FJVviIgqRLWVNU1V2v6ezmyPejPjaulWHKlukW9saqxT1zVFamtjXz+0/6UDbubRbV+43+YxKYzysXRgb6ROU79hLLIr1ajRGKaH+ue7zROPTU5+0SeVPrLJEdZaOjvTmx3dgPFaqLghruJ2EC7uJIZDNgdw/lhPJAdngFeK5CqKawk0xbkgXfEHe3hjer7RZ5e3Scb6M9lQ5lxNDYM0LYNTmpYpvzUkedlhDLq0xlqdWmcob6jePmrsDWha7Y5NyaH+Xteo/e2GPqvYu0e1Y3OzIlNf854mYrJ40Vy93tCg1rZra6l2WCRUAphgitmMd5klGT7RScKwfJ40CNrgjY1/R/2/zgxF8ca1p4atg8znnhrmBIu3TsRXjw6VShNVV+uIm73DZuf2HmFHt8rFHx3SKY8zawbbfISTbCLruFpHSKGiYPt8wGI+TCEilboMd0puD0d8nRSj19aM46sPG0UX0K5U6m2uCkUJBVlNKvAY2q6Raeylsih6kJ1HlxXZlytezv6iQKwfpdHAsFJ7KVnNOtFlGPig4heFX+CxMC5NXCPL0Uv4/0oaJQ4SDoyKW3k5T6WstUL0gKqjtVYu2dDYnI66tZsbG5ukjU3p6LUmdYNc6LAPTLcqlVLaNjCNawg6ADWEO8mUcv+fsgpmTxVOZWcr8Jt+9tuolr0GOVe+/AmZIt+C6i+HvTBFWGE8hz0edGuZhwAKd+nnvHvCyzBe/FFQlAI+UfR8H5tFPXc8RrOjg9lcLjs46vc6HF78YRncRsSfeQ4r0ULUkB7yu2Al1JEy0l5GwoqRHvYG+zGqQlXsz1PIB5ePC6iS/Yi9m5xbOgNS9cQ0WUNu5aU0AgWtkJTC/gL9FLHHEuiLrBB9n2bDX0FHEuyRIHePV11CjJP95AwvRSNwFWlg3T9ApeytAiqBPdLr5MZxVAq//8Le+jfAAAn1eZrctKKJ1kjkEoUAiRCzZupXEDqcYI+iT9kwjb5/p09IhpAd4X+igFcfsR+hSm0qhR4q4LsC+zHpBodAxgV6rKseiRQSWgIOUWQJqEmgBVBDvwKeJdhj6CX8A8uIwJ/eFX80FHaoFFgpmr+bvYVKCvB1ZelP2CNUgl2iUtyZ3jTZveoPJVHIFeAO/eW1c38lgb07Cc7QgDKSuEhmSSHmvTRFW0UKyioXqWiF/Nmnz+1cRJbFneee3nkf+9Z9F585d9995545dAhnxZHlX6Gr5EdYqpSyyyUiOy2XURJahjZ/68SJb71w/HjHi4X70af3F158oXCcFR7HuQTKptAw+VNcdRCmZMQwOTUxgee7jG6ih8mr3BswALVPHI6jm7/7HfF/+t264wAAAHicY2BkYGDIZ/zBoMWQyMDGAOIhADMDIwAwjgIAAAAAAAAAAAAZAEwAewCbALEAxwEBAR4BMwFRAW4BfgGcAbUB5wIKAkQCdQK9As4C7AL/Ax4DOQNPA2UDrgPnBBYETwSBBJ0E4gUGBREFJwUyBUwFZAWBBboF4AYMBkMGegagBuUHAgckBzYHUgdrB4oHoAfaB/UIKQhtCIgIwQkICSEJcAm3CbcJwgnSCd4J6goGCjsKRApkCokKmAqmCrIKvgrdCvsLLwtjC3ULhguPC6YLtgwpDH8MjAzaDO4NAQ0UDSgNUQ1lDbMNzg3pDgMOHQ43DlEOaw6EDp8Oug7HDtUAAQAAAAGzddE3zVVfDzz1AAMD6AAAAADlWKpXAAAAAOYzOKv/yv52Ao4EIgAAAAYAAgAAAAAAAHicbdChCgJBEMbxvUMQbIJBBG0eBtMigrIiGA6bhxjkslHMRh/Ah7D4Lj6LQQwmk9/Af2GD4cfszs7sDpt9nM/3rie1FERzYB+kkhFry1tPmdQX7MdJ3QCenMUp9SW5Jet4b4UTas6sdidzzj1n6dpihzcmsiUXiHGO8Cfv5CVvYrQixneOOJO7Ic57xVPu8mUmyRr8z4LeNTb0tqQvXWnLkP1MmvxTLhfnMpv38QN5FElcAHicY2BkYGB+++8mAwNTxP9Tf/cw9TG/YEAF+QDGdgiPeJxjYGGKYJzAwMrAwNTFFMHAwOANoRnjGIwY7YCijAycDGDQwMDADKQUGKAgLMjZh+EAg4LiTOa3/24yMLA4MHYBhRlBckxCTMfAatkAGRcL9QAAeJwljk1ugWEUhZ9PJRIjg04YsQJGEmLwfRRp/f+Ellb90xILILEGhlYiqQ66AmvoTl4nr5ucc5J7bs49gA94EB7FjlU/V2mEkDZB4qRw6THki2+27DlHw7GTMbqJkiCNR5+RvBU76x2sFwDzJ/yYi/mVHv8z2jrKhaTgcp8nywXBE3d4UdqYN7rUqPPMOzkqZCnpMs8nHwwo8kqLMm39rbKhoX5N23DCjIWarNVnypzlDctKJ/AAALgB/4WwBI0AeJyFkNFKAkEYhb9JC5LoqquulrCwCy0jKAoC8SKChBCxW1exdWNzY1ejbnycHqIn8LE8zs6SiRDLv3Pm/Oecf2aAEjMKmOIu8K3KsOFAuwxvsc+PwwWumTtcpGxy/TaHpuzwDkfmLsPq75mew8fCkcMnlMwnTWLe+SIhJGDEBI8LzlWXQh0xQ633+oektvskbcyrmIHdN5hqHYlLpPCo2JSJUlNuONMXyLtUTOlTkyvmTeyHEhLthkRWk0+o8iLFWKjmnKd/5rdsN6YtLlBmhK+cutRXOnedW7rqNXkU+vXlruqab1Oyt6bp2pOm0i373sqs//OfrSJ72QeVLz7Urdv2FXzGC48RTBYAAHicY2BmAIP/cxiMgBQjAxoAACqUAdIAAAABAAH//wAPAAEAAAAMAAAAAAAAAAIAAwABACMAAQAlACUAAQAnADYAAQAAAAEAAAAKABwAHgABREZMVAAIAAQAAAAA//8AAAAAAAB4nGNgZGBg4GJQY9BgYHJx8wlh4MtJLMljkGBgAYoz/P/PAAcAbZcFXQAAAHicY2BkYGTgYGBiYGAQAZMqDEzl6RkljEBmZkliDqMqUJ4FKMcMFGBiYGKcAKT2ANnMQHEmRjUGEAAqBgDVnQVxAAAA) format('woff');}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes pop{0%{opacity:0;transform:scale(.3)}70%{opacity:1;transform:scale(1.15)}100%{opacity:1;transform:none}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes nudge{0%,100%{transform:none}50%{transform:translateX(4px)}}
+@keyframes sheen{0%{transform:translateX(-300px) skewX(-20deg)}30%,100%{transform:translateX(650px) skewX(-20deg)}}
+@keyframes ring{0%{opacity:.7;transform:scale(.2)}100%{opacity:0;transform:scale(2.4)}}
+@keyframes flash{0%{filter:brightness(2.4)}45%{filter:brightness(2.4)}100%{filter:brightness(1)}}
+@keyframes flame{0%,100%{transform:scale(1) rotate(-2deg);filter:drop-shadow(0 0 3px rgba(255,42,95,0.5))}50%{transform:scale(1.18) rotate(3deg);filter:drop-shadow(0 0 8px rgba(255,215,0,0.9))}}
+@keyframes flamecore{0%,100%{transform:scale(0.88);opacity:.85}50%{transform:scale(1.22);opacity:1}}
+@keyframes glowpulse{0%,100%{opacity:0.35}50%{opacity:0.8}}
+@keyframes starTwinkle1{0%,100%{opacity:.2}50%{opacity:1}}
+@keyframes starTwinkle2{0%,100%{opacity:.95}50%{opacity:.15}}
+@keyframes alienMarch{0%,100%{transform:translateY(0) translateX(0)}25%{transform:translateY(-4px) translateX(3px)}50%{transform:translateY(0) translateX(6px)}75%{transform:translateY(-4px) translateX(3px)}}
+@keyframes bossHover{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-6px) scale(1.04)}}
+@keyframes bossShield{0%,100%{transform:scale(1);filter:drop-shadow(0 0 3px #ff2a5f)}50%{transform:scale(1.18);filter:drop-shadow(0 0 14px #ff2a5f)}}
+@keyframes beamStream{0%{stroke-dashoffset:28}100%{stroke-dashoffset:0}}
+@keyframes beamSurge{0%,100%{opacity:0.25;transform:scaleX(0.92)}50%{opacity:0.62;transform:scaleX(1.35)}}
+@keyframes corePulse{0%,100%{opacity:0.85;filter:brightness(1)}50%{opacity:1;filter:brightness(1.4)}}
+@keyframes shipPatrol{0%{transform:translateX(-190px)}35%{transform:translateX(190px)}65%{transform:translateX(-100px)}100%{transform:translateX(-190px)}}
+@keyframes hitBurst{0%,100%{transform:scale(0.65) rotate(0deg);opacity:0.45}50%{transform:scale(1.45) rotate(45deg);opacity:1}}
+@keyframes sparkRing{0%,100%{transform:scale(0.7);opacity:0.6}50%{transform:scale(1.8);opacity:0.1}}
+@keyframes fireLaser{0%{transform:translateY(0);opacity:1}80%{opacity:1}100%{transform:translateY(-125px);opacity:0}}
+@keyframes thruster{0%,100%{transform:scaleY(.8);opacity:.75}50%{transform:scaleY(1.35);opacity:1}}
+@keyframes radarSweep{0%{transform:translateY(0);opacity:0}15%{opacity:0.35}85%{opacity:0.35}100%{transform:translateY(165px);opacity:0}}
+@keyframes shipSweep{0%{transform:translateX(74px)}50%{transform:translateX(784px)}100%{transform:translateX(74px)}}
+@keyframes blasterBolt{0%{transform:translateY(0);opacity:1}80%{opacity:1}100%{transform:translateY(-130px);opacity:0}}
+@keyframes blockBlast{0%,1%{opacity:1;transform:scale(1);filter:none}3%{opacity:1;transform:scale(1.35);filter:brightness(3.5)}6%,28%{opacity:0;transform:scale(0.1)}33%{opacity:0.8;transform:scale(1.2);filter:brightness(1.8)}37%,100%{opacity:1;transform:scale(1);filter:none}}
+@keyframes blockBlastDim{0%,1%{opacity:1;transform:scale(1)}3%{opacity:0.8;transform:scale(1.15);filter:brightness(2.0)}6%,28%{opacity:0.08;transform:scale(0.2)}33%{opacity:0.7;transform:scale(1.1)}37%,100%{opacity:1;transform:scale(1)}}
+@keyframes sparkFlash{0%,2%{opacity:0;transform:scale(0)}3%{opacity:1;transform:scale(1.6) rotate(45deg)}5%{opacity:0;transform:scale(2.2) rotate(90deg)}6%,100%{opacity:0}}
+
+.r{opacity:0;animation:rise .8s cubic-bezier(.2,.7,.2,1) both;transform-box:fill-box}
+.f{opacity:0;animation:fade .9s ease-out both}
+.g{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:grow .8s cubic-bezier(.2,.7,.2,1) both}
+.p{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .4s ease-out both}
+.blk{animation:blink 1.0s step-end infinite}
+.live{animation:pulse 1.6s ease-in-out infinite}
+.n{transform-box:fill-box;animation:nudge 1.8s ease-in-out infinite}
+.sh{animation:sheen 4.5s ease-in-out infinite}
+.rg{opacity:0;transform-box:fill-box;transform-origin:center;animation:ring 1s ease-out both}
+.pf{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .45s ease-out both, flash .65s ease-out both}
+.flame{transform-box:fill-box;transform-origin:center bottom;animation:flame 1.3s ease-in-out infinite}
+.flamecore{transform-box:fill-box;transform-origin:center bottom;animation:flamecore 0.85s ease-in-out infinite}
+.gp{animation:glowpulse 2s ease-in-out infinite}
+.st1{animation:starTwinkle1 2.2s ease-in-out infinite}
+.st2{animation:starTwinkle2 1.7s ease-in-out infinite}
+.abob{transform-box:fill-box;transform-origin:center;animation:alienMarch 2.2s ease-in-out infinite}
+.bbob{transform-box:fill-box;transform-origin:center;animation:bossHover 2.2s ease-in-out infinite}
+.bshield{transform-box:fill-box;transform-origin:center;animation:bossShield 1.6s ease-in-out infinite}
+.bsurge{transform-box:fill-box;transform-origin:center;animation:beamSurge 1.3s ease-in-out infinite}
+.cpulse{animation:corePulse 1.0s ease-in-out infinite}
+.stream{animation:beamStream 0.42s linear infinite}
+.spatrol{transform-box:fill-box;animation:shipPatrol 8.5s ease-in-out infinite}
+.burst{transform-box:fill-box;transform-origin:center;animation:hitBurst 0.9s ease-in-out infinite}
+.sring{transform-box:fill-box;transform-origin:center;animation:sparkRing 0.9s ease-in-out infinite}
+.flaser{transform-box:fill-box;animation:fireLaser 0.65s linear infinite}
+.thrust{transform-box:fill-box;transform-origin:top center;animation:thruster 0.25s ease-in-out infinite}
+.radar{transform-box:fill-box;animation:radarSweep 3.6s ease-in-out infinite}
+.ssweep{animation:shipSweep 8.0s linear infinite}
+.bbolt{transform-box:fill-box;animation:blasterBolt .35s linear infinite}
+.bhit{transform-box:fill-box;transform-origin:center;animation:blockBlast 8.0s ease-out infinite}
+.bhit-dim{transform-box:fill-box;transform-origin:center;animation:blockBlastDim 8.0s ease-out infinite}
+.sflash{transform-box:fill-box;transform-origin:center;animation:sparkFlash 8.0s ease-out infinite}
+
+@media (prefers-reduced-motion: reduce){
+  .r,.f,.g,.p,.pf,.live,.n,.rg,.flame,.flamecore,.gp,.blk,.st1,.st2,.abob,.bbob,.bshield,.bsurge,.cpulse,.stream,.spatrol,.burst,.sring,.flaser,.thrust,.radar,.ssweep,.bbolt,.bhit,.bhit-dim,.sflash{animation:none!important;opacity:1!important;transform:none!important}
+  .sh,.rg,.flaser,.stream,.radar,.bbolt,.sflash{display:none}
+}
+</style>
+
+
+<rect width="880" height="430" rx="12" fill="#0d1117" stroke="#30363d"/>
+
+<!-- Arcade Header -->
+<g class="r" style="animation-delay:1.00s">
+  <text x="42" y="55" font-family="'Silkscreen', monospace" font-size="16" fill="#00ff66">★ MISSION // COMMIT VALLEY DEFENSE ★</text>
+  <rect class="live" x="660" y="44" width="7" height="7" rx="1.5" fill="#ff2a5f"/>
+  <text x="676" y="52" font-family="'Silkscreen', monospace" font-size="9" fill="#ff2a5f">COMBO x84 ACTIVE</text>
+</g>
+<line x1="44" y1="72" x2="836" y2="72" stroke="#30363d"/>
+
+<!-- Stat HUD Boxes -->
+
+<g class="r" style="animation-delay:1.20s">
+  <rect x="44.0" y="86" width="186.0" height="106" rx="8" fill="#121720" stroke="#30363d"/>
+  <text x="58.0" y="106" font-family="'Silkscreen', monospace" font-size="8.5" fill="#8b949e">DEX • STREAK</text>
+  
+<g class="r" style="animation-delay:1.30s" transform="translate(202.0, 95)">
+  <circle cx="8" cy="8" r="10" fill="#201115" class="gp"/>
+  <path class="flame" d="M8 2C8 2 4 6 4 10C4 12.5 6 14.5 8.5 14.5C11 14.5 13 12.5 13 10C13 7.5 10.5 5 10.5 5C10.5 5 9.5 6.5 8 6.5C6.5 6.5 6 5 8 2Z" fill="#ff2a5f"/>
+</g>
+  <text x="58.0" y="142" font-family="'Silkscreen', monospace" font-size="26" fill="#00ff66">0<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan></text>
+  <text x="58.0" y="165" font-family="'Geist Mono', ui-monospace, monospace" font-size="10" fill="#8b949e">BUFF READY</text>
+  <!-- Mini Pixel Gauge -->
+  <rect x="58.0" y="178" width="158.0" height="4" rx="2" fill="#1b2431"/>
+  <rect class="g" style="animation-delay:1.50s" x="58.0" y="178" width="71.1" height="4" rx="2" fill="#00ff66"/>
+</g>
+
+<g class="r" style="animation-delay:1.32s">
+  <rect x="246.0" y="86" width="186.0" height="106" rx="8" fill="#121720" stroke="#30363d"/>
+  <text x="260.0" y="106" font-family="'Silkscreen', monospace" font-size="8.5" fill="#8b949e">VIT • RECORD</text>
+  
+  <text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">1<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.520s"/><set attributeName="opacity" to="0" begin="1.591s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">3<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.591s"/><set attributeName="opacity" to="0" begin="1.663s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">4<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.663s"/><set attributeName="opacity" to="0" begin="1.734s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">4<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.734s"/><set attributeName="opacity" to="0" begin="1.806s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">5<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.806s"/><set attributeName="opacity" to="0" begin="1.877s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">6<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.877s"/><set attributeName="opacity" to="0" begin="1.949s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">6<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.949s"/><set attributeName="opacity" to="0" begin="2.020s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">6<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.020s"/><set attributeName="opacity" to="0" begin="2.091s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">7<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.091s"/><set attributeName="opacity" to="0" begin="2.163s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">7<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.163s"/><set attributeName="opacity" to="0" begin="2.234s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">7<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.234s"/><set attributeName="opacity" to="0" begin="2.306s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">7<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.306s"/><set attributeName="opacity" to="0" begin="2.377s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">7<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.377s"/><set attributeName="opacity" to="0" begin="2.449s"/></text><text x="260.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ffd700">7<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.449s"/></text>
+  <text x="260.0" y="165" font-family="'Geist Mono', ui-monospace, monospace" font-size="10" fill="#8b949e">BEST: MAR 30–APR 5</text>
+  <!-- Mini Pixel Gauge -->
+  <rect x="260.0" y="178" width="158.0" height="4" rx="2" fill="#1b2431"/>
+  <rect class="g" style="animation-delay:1.62s" x="260.0" y="178" width="36.9" height="4" rx="2" fill="#ffd700"/>
+</g>
+
+<g class="r" style="animation-delay:1.44s">
+  <rect x="448.0" y="86" width="186.0" height="106" rx="8" fill="#121720" stroke="#30363d"/>
+  <text x="462.0" y="106" font-family="'Silkscreen', monospace" font-size="8.5" fill="#8b949e">AGI • STAMINA</text>
+  
+  <text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">17<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.640s"/><set attributeName="opacity" to="0" begin="1.711s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">31<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.711s"/><set attributeName="opacity" to="0" begin="1.783s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">43<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.783s"/><set attributeName="opacity" to="0" begin="1.854s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">53<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.854s"/><set attributeName="opacity" to="0" begin="1.926s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">62<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.926s"/><set attributeName="opacity" to="0" begin="1.997s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">68<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="1.997s"/><set attributeName="opacity" to="0" begin="2.069s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">74<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.069s"/><set attributeName="opacity" to="0" begin="2.140s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">77<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.140s"/><set attributeName="opacity" to="0" begin="2.211s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">80<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.211s"/><set attributeName="opacity" to="0" begin="2.283s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">82<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.283s"/><set attributeName="opacity" to="0" begin="2.354s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">83<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.354s"/><set attributeName="opacity" to="0" begin="2.426s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">84<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.426s"/><set attributeName="opacity" to="0" begin="2.497s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">84<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.497s"/><set attributeName="opacity" to="0" begin="2.569s"/></text><text x="462.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#00e5ff">84<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> d</tspan><set attributeName="opacity" to="1" begin="2.569s"/></text>
+  <text x="462.0" y="165" font-family="'Geist Mono', ui-monospace, monospace" font-size="10" fill="#8b949e">23% ACTIVE RATE</text>
+  <!-- Mini Pixel Gauge -->
+  <rect x="462.0" y="178" width="158.0" height="4" rx="2" fill="#1b2431"/>
+  <rect class="g" style="animation-delay:1.74s" x="462.0" y="178" width="36.2" height="4" rx="2" fill="#00e5ff"/>
+</g>
+
+<g class="r" style="animation-delay:1.56s">
+  <rect x="650.0" y="86" width="186.0" height="106" rx="8" fill="#121720" stroke="#30363d"/>
+  <text x="664.0" y="106" font-family="'Silkscreen', monospace" font-size="8.5" fill="#8b949e">CRIT • DAMAGE</text>
+  
+  <text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">5<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="1.760s"/><set attributeName="opacity" to="0" begin="1.831s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">9<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="1.831s"/><set attributeName="opacity" to="0" begin="1.903s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">13<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="1.903s"/><set attributeName="opacity" to="0" begin="1.974s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">16<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="1.974s"/><set attributeName="opacity" to="0" begin="2.046s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">18<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.046s"/><set attributeName="opacity" to="0" begin="2.117s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">20<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.117s"/><set attributeName="opacity" to="0" begin="2.189s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">22<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.189s"/><set attributeName="opacity" to="0" begin="2.260s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">23<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.260s"/><set attributeName="opacity" to="0" begin="2.331s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">24<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.331s"/><set attributeName="opacity" to="0" begin="2.403s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">24<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.403s"/><set attributeName="opacity" to="0" begin="2.474s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">25<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.474s"/><set attributeName="opacity" to="0" begin="2.546s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">25<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.546s"/><set attributeName="opacity" to="0" begin="2.617s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">25<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.617s"/><set attributeName="opacity" to="0" begin="2.689s"/></text><text x="664.0" y="142" opacity="0" font-family="'Silkscreen', monospace" font-size="26" fill="#ff2a5f">25<tspan font-size="11" font-family="'Silkscreen', monospace" fill="#8b949e"> hits</tspan><set attributeName="opacity" to="1" begin="2.689s"/></text>
+  <text x="664.0" y="165" font-family="'Geist Mono', ui-monospace, monospace" font-size="10" fill="#8b949e">CRIT HIT (APR 12)</text>
+  <!-- Mini Pixel Gauge -->
+  <rect x="664.0" y="178" width="158.0" height="4" rx="2" fill="#1b2431"/>
+  <rect class="g" style="animation-delay:1.86s" x="664.0" y="178" width="131.7" height="4" rx="2" fill="#ff2a5f"/>
+</g>
+
+
+<line x1="44" y1="208" x2="836" y2="208" stroke="#30363d"/>
+
+<!-- Space Shooter Valley Header -->
+<g class="f" style="animation-delay:1.60s">
+  <text x="44" y="228" font-family="'Silkscreen', monospace" font-size="8.5" fill="#ffd700">SPACE DEFENDER // MONTHLY INVASION  •  368 TOTAL BLASTS</text>
+  <text x="836" y="228" text-anchor="end" font-family="'Silkscreen', monospace" font-size="8.5" fill="#00e5ff">SECTOR TARGET: APRIL MOTHERSHIP [159 HITS]</text>
+</g>
+
+<!-- Space Cockpit Arena -->
+<rect x="44" y="246" width="792" height="168" rx="8" fill="#050811" stroke="#1d2e47"/>
+<!-- Moving Arcade Radar Beam (Infinite Loop) -->
+<line class="radar" x1="46" y1="246" x2="834" y2="246" stroke="#00e5ff" stroke-width="1.2"/>
+<!-- Subtle Grid Lines -->
+<line x1="44" y1="288" x2="836" y2="288" stroke="#132338" stroke-dasharray="3,3"/>
+<line x1="44" y1="388" x2="836" y2="388" stroke="#132338"/>
+
+<!-- Starfield (36 Continuously Twinkling Stars) -->
+<circle cx="706" cy="282" r="1.5" fill="#00e5ff" class="st2"/><circle cx="744" cy="393" r="1.0" fill="#ffd700" class="st2"/><circle cx="569" cy="260" r="1.0" fill="#ffffff" class="st1"/><circle cx="481" cy="310" r="1.5" fill="#ffffff" class="st2"/><circle cx="215" cy="362" r="1.5" fill="#ffffff" class="st2"/><circle cx="396" cy="280" r="1.5" fill="#ffffff" class="st2"/><circle cx="670" cy="321" r="1.0" fill="#ffffff" class="st1"/><circle cx="439" cy="274" r="1.0" fill="#ffffff" class="st1"/><circle cx="422" cy="401" r="1.5" fill="#ffffff" class="st2"/><circle cx="348" cy="274" r="1.0" fill="#ffffff" class="st1"/><circle cx="516" cy="347" r="1.0" fill="#ffffff" class="st2"/><circle cx="770" cy="272" r="1.5" fill="#ffffff" class="st1"/><circle cx="219" cy="372" r="1.0" fill="#ffffff" class="st2"/><circle cx="622" cy="310" r="1.0" fill="#ffffff" class="st1"/><circle cx="286" cy="262" r="1.0" fill="#00e5ff" class="st1"/><circle cx="632" cy="334" r="1.0" fill="#ffffff" class="st2"/><circle cx="710" cy="371" r="1.5" fill="#ffffff" class="st2"/><circle cx="603" cy="321" r="1.0" fill="#ffffff" class="st1"/><circle cx="422" cy="310" r="1.5" fill="#ffffff" class="st1"/><circle cx="825" cy="266" r="1.5" fill="#00e5ff" class="st1"/><circle cx="662" cy="270" r="1.0" fill="#ffffff" class="st2"/><circle cx="309" cy="395" r="1.5" fill="#ffffff" class="st1"/><circle cx="750" cy="391" r="1.0" fill="#ffd700" class="st1"/><circle cx="213" cy="370" r="1.0" fill="#ffffff" class="st2"/><circle cx="564" cy="299" r="1.5" fill="#ffffff" class="st1"/><circle cx="706" cy="383" r="1.5" fill="#ffffff" class="st1"/><circle cx="604" cy="389" r="1.0" fill="#ffffff" class="st1"/><circle cx="166" cy="346" r="1.0" fill="#ffd700" class="st1"/><circle cx="632" cy="274" r="1.0" fill="#00e5ff" class="st2"/><circle cx="180" cy="286" r="1.0" fill="#00e5ff" class="st1"/><circle cx="673" cy="362" r="1.0" fill="#ffffff" class="st1"/><circle cx="758" cy="305" r="1.0" fill="#ffffff" class="st1"/><circle cx="434" cy="366" r="1.0" fill="#ffd700" class="st1"/><circle cx="73" cy="395" r="1.5" fill="#00e5ff" class="st2"/><circle cx="286" cy="271" r="1.0" fill="#ffd700" class="st1"/><circle cx="737" cy="378" r="1.5" fill="#ffffff" class="st2"/>
+
+<!-- Valley Laser Cannons & Alien Invaders (Continuous Looping Battle) -->
+
+<g>
+  <text class="f" style="animation-delay:1.90s" x="74.5" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#30363d">0</text>
+  <g class="abob" style="animation-delay:0.89s" transform="translate(70.3, 272.5) scale(0.7)"><path d="M4 0h4v2h-4z M2 2h8v2h-8z M0 4h12v3h-2v2h-2v-2h-4v2h-2v-2h-2z M3 5h2v1h-2z M7 5h2v1h-2z" fill="#30363d"/></g>
+  
+  <polygon points="69.5,387 74.5,382 79.5,387" fill="#1b2431" stroke="#30363d"/><circle cx="74.5" cy="382" r="1" fill="#30363d"/>
+  <text class="f" style="animation-delay:2.30s" x="74.5" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#8b949e">NOV</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:1.94s" x="135.4" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#00e5ff">27</text>
+  <g class="abob" style="animation-delay:0.48s" transform="translate(127.3, 270.6) scale(0.9)"><path d="M6 0h6v2h-6z M2 2h14v2h-14z M0 4h18v4h-2v2h-2v2h-2v-2h-6v2h-2v-2h-2v-2h-2z M4 6h2v2h-2z M12 6h2v2h-2z M0 2h2v4h-2z M16 2h2v4h-2z" fill="#00e5ff"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.14s" x="131.4" y="367.4" width="8" height="16.6" rx="2" fill="#00ffcc"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.14s" x="133.9" y="367.4" width="3.0" height="16.6" rx="1.5" fill="#00ffcc"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.07s" x1="135.4" y1="384.0" x2="135.4" y2="367.4" stroke="#00ffcc" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.14s" transform="translate(135.4, 367.4)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#00ffcc"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="130.4,387 135.4,382 140.4,387" fill="#1b2431" stroke="#30363d"/><circle cx="135.4" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="135.4" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">DEC</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:1.98s" x="196.3" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">14</text>
+  <g class="abob" style="animation-delay:0.06s" transform="translate(189.5, 270.1) scale(0.85)"><path d="M6 0h4v2h-4z M4 2h8v2h-8z M2 4h12v4h-2v4h-2v-2h-4v2h-2v-4h-2z M4 6h2v2h-2z M10 6h2v2h-2z M0 8h2v5h-2z M14 8h2v5h-2z" fill="#a78bfa"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.28s" x="192.3" y="375.4" width="8" height="8.6" rx="2" fill="#58a6ff"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.28s" x="194.8" y="375.4" width="3.0" height="8.6" rx="1.5" fill="#58a6ff"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.14s" x1="196.3" y1="384.0" x2="196.3" y2="375.4" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.28s" transform="translate(196.3, 375.4)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#58a6ff"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="191.3,387 196.3,382 201.3,387" fill="#1b2431" stroke="#30363d"/><circle cx="196.3" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="196.3" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">JAN</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.02s" x="257.2" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">12</text>
+  <g class="abob" style="animation-delay:1.05s" transform="translate(250.4, 270.1) scale(0.85)"><path d="M6 0h4v2h-4z M4 2h8v2h-8z M2 4h12v4h-2v4h-2v-2h-4v2h-2v-4h-2z M4 6h2v2h-2z M10 6h2v2h-2z M0 8h2v5h-2z M14 8h2v5h-2z" fill="#a78bfa"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.42s" x="253.2" y="376.0" width="8" height="8.0" rx="2" fill="#58a6ff"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.42s" x="255.7" y="376.0" width="3.0" height="8.0" rx="1.5" fill="#58a6ff"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.21s" x1="257.2" y1="384.0" x2="257.2" y2="376.0" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.42s" transform="translate(257.2, 376.0)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#58a6ff"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="252.2,387 257.2,382 262.2,387" fill="#1b2431" stroke="#30363d"/><circle cx="257.2" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="257.2" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">FEB</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.06s" x="318.2" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#00e5ff">37</text>
+  <g class="abob" style="animation-delay:0.63s" transform="translate(310.1, 270.6) scale(0.9)"><path d="M6 0h6v2h-6z M2 2h14v2h-14z M0 4h18v4h-2v2h-2v2h-2v-2h-6v2h-2v-2h-2v-2h-2z M4 6h2v2h-2z M12 6h2v2h-2z M0 2h2v4h-2z M16 2h2v4h-2z" fill="#00e5ff"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.56s" x="314.2" y="361.2" width="8" height="22.8" rx="2" fill="#00ffcc"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.56s" x="316.7" y="361.2" width="3.0" height="22.8" rx="1.5" fill="#00ffcc"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.28s" x1="318.2" y1="384.0" x2="318.2" y2="361.2" stroke="#00ffcc" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.56s" transform="translate(318.2, 361.2)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#00ffcc"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="313.2,387 318.2,382 323.2,387" fill="#1b2431" stroke="#30363d"/><circle cx="318.2" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="318.2" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">MAR</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.10s" x="379.1" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#ff2a5f">BOSS:159</text>
+  <g class="bbob" transform="translate(359.1, 266.0) scale(1.0)"><!-- Boss Energy Shield (Infinite Loop) --><ellipse cx="20.0" cy="10.0" rx="26.0" ry="14.0" fill="#ff2a5f" opacity="0.22" class="bshield"/><!-- Mothership Core Hull --><path d="M12 0h16v2h-16z M8 2h24v2h-24z M4 4h32v4h-32z M0 8h40v4h-4v3h-4v2h-6v-2h-12v2h-6v-2h-4v-3h-4z" fill="#ff2a5f"/><path d="M14 5h12v3h-12z" fill="#ffd700"/><circle cx="20.0" cy="6.5" r="2.5" fill="#ffffff"/><rect x="6" y="8" width="4" height="2" fill="#00e5ff"/><rect x="30" y="8" width="4" height="2" fill="#00e5ff"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.70s" x="373.1" y="286.0" width="12" height="98.0" rx="2" fill="#00e5ff"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.70s" x="376.8" y="286.0" width="4.5" height="98.0" rx="1.5" fill="#ffffff"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.35s" x1="379.1" y1="384.0" x2="379.1" y2="286.0" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.70s" transform="translate(379.1, 286.0)">
+  <circle class="sring" cx="0" cy="0" r="6" fill="#00e5ff"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="374.1,387 379.1,382 384.1,387" fill="#1b2431" stroke="#30363d"/><circle cx="379.1" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="379.1" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#00e5ff">APR</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.14s" x="440.0" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">18</text>
+  <g class="abob" style="animation-delay:1.20s" transform="translate(433.2, 270.1) scale(0.85)"><path d="M6 0h4v2h-4z M4 2h8v2h-8z M2 4h12v4h-2v4h-2v-2h-4v2h-2v-4h-2z M4 6h2v2h-2z M10 6h2v2h-2z M0 8h2v5h-2z M14 8h2v5h-2z" fill="#a78bfa"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.84s" x="436.0" y="372.9" width="8" height="11.1" rx="2" fill="#58a6ff"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.84s" x="438.5" y="372.9" width="3.0" height="11.1" rx="1.5" fill="#58a6ff"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.00s" x1="440.0" y1="384.0" x2="440.0" y2="372.9" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.84s" transform="translate(440.0, 372.9)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#58a6ff"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="435.0,387 440.0,382 445.0,387" fill="#1b2431" stroke="#30363d"/><circle cx="440.0" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="440.0" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">MAY</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.18s" x="500.9" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">19</text>
+  <g class="abob" style="animation-delay:0.78s" transform="translate(494.1, 270.1) scale(0.85)"><path d="M6 0h4v2h-4z M4 2h8v2h-8z M2 4h12v4h-2v4h-2v-2h-4v2h-2v-4h-2z M4 6h2v2h-2z M10 6h2v2h-2z M0 8h2v5h-2z M14 8h2v5h-2z" fill="#a78bfa"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.98s" x="496.9" y="372.3" width="8" height="11.7" rx="2" fill="#58a6ff"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.98s" x="499.4" y="372.3" width="3.0" height="11.7" rx="1.5" fill="#58a6ff"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.07s" x1="500.9" y1="384.0" x2="500.9" y2="372.3" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.98s" transform="translate(500.9, 372.3)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#58a6ff"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="495.9,387 500.9,382 505.9,387" fill="#1b2431" stroke="#30363d"/><circle cx="500.9" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="500.9" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">JUN</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.22s" x="561.8" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#00e5ff">30</text>
+  <g class="abob" style="animation-delay:0.37s" transform="translate(553.7, 270.6) scale(0.9)"><path d="M6 0h6v2h-6z M2 2h14v2h-14z M0 4h18v4h-2v2h-2v2h-2v-2h-6v2h-2v-2h-2v-2h-2z M4 6h2v2h-2z M12 6h2v2h-2z M0 2h2v4h-2z M16 2h2v4h-2z" fill="#00e5ff"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:1.12s" x="557.8" y="365.5" width="8" height="18.5" rx="2" fill="#00ffcc"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:1.12s" x="560.3" y="365.5" width="3.0" height="18.5" rx="1.5" fill="#00ffcc"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.14s" x1="561.8" y1="384.0" x2="561.8" y2="365.5" stroke="#00ffcc" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:1.12s" transform="translate(561.8, 365.5)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#00ffcc"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="556.8,387 561.8,382 566.8,387" fill="#1b2431" stroke="#30363d"/><circle cx="561.8" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="561.8" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">JUL</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.26s" x="622.8" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">14</text>
+  <g class="abob" style="animation-delay:1.35s" transform="translate(616.0, 270.1) scale(0.85)"><path d="M6 0h4v2h-4z M4 2h8v2h-8z M2 4h12v4h-2v4h-2v-2h-4v2h-2v-4h-2z M4 6h2v2h-2z M10 6h2v2h-2z M0 8h2v5h-2z M14 8h2v5h-2z" fill="#a78bfa"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:1.26s" x="618.8" y="375.4" width="8" height="8.6" rx="2" fill="#58a6ff"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:1.26s" x="621.3" y="375.4" width="3.0" height="8.6" rx="1.5" fill="#58a6ff"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.21s" x1="622.8" y1="384.0" x2="622.8" y2="375.4" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:1.26s" transform="translate(622.8, 375.4)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#58a6ff"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="617.8,387 622.8,382 627.8,387" fill="#1b2431" stroke="#30363d"/><circle cx="622.8" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="622.8" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">AUG</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.30s" x="683.7" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">3</text>
+  <g class="abob" style="animation-delay:0.94s" transform="translate(676.9, 270.1) scale(0.85)"><path d="M6 0h4v2h-4z M4 2h8v2h-8z M2 4h12v4h-2v4h-2v-2h-4v2h-2v-4h-2z M4 6h2v2h-2z M10 6h2v2h-2z M0 8h2v5h-2z M14 8h2v5h-2z" fill="#a78bfa"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.10s" x="679.7" y="376.0" width="8" height="8.0" rx="2" fill="#58a6ff"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.10s" x="682.2" y="376.0" width="3.0" height="8.0" rx="1.5" fill="#58a6ff"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.28s" x1="683.7" y1="384.0" x2="683.7" y2="376.0" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.10s" transform="translate(683.7, 376.0)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#58a6ff"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="678.7,387 683.7,382 688.7,387" fill="#1b2431" stroke="#30363d"/><circle cx="683.7" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="683.7" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">SEP</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.34s" x="744.6" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#00e5ff">33</text>
+  <g class="abob" style="animation-delay:0.52s" transform="translate(736.5, 270.6) scale(0.9)"><path d="M6 0h6v2h-6z M2 2h14v2h-14z M0 4h18v4h-2v2h-2v2h-2v-2h-6v2h-2v-2h-2v-2h-2z M4 6h2v2h-2z M12 6h2v2h-2z M0 2h2v4h-2z M16 2h2v4h-2z" fill="#00e5ff"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.24s" x="740.6" y="363.7" width="8" height="20.3" rx="2" fill="#00ffcc"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.24s" x="743.1" y="363.7" width="3.0" height="20.3" rx="1.5" fill="#00ffcc"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.35s" x1="744.6" y1="384.0" x2="744.6" y2="363.7" stroke="#00ffcc" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.24s" transform="translate(744.6, 363.7)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#00ffcc"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="739.6,387 744.6,382 749.6,387" fill="#1b2431" stroke="#30363d"/><circle cx="744.6" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="744.6" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">OCT</text>
+</g>
+
+<g>
+  <text class="f" style="animation-delay:2.38s" x="805.5" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">2</text>
+  <g class="abob" style="animation-delay:0.11s" transform="translate(798.7, 270.1) scale(0.85)"><path d="M6 0h4v2h-4z M4 2h8v2h-8z M2 4h12v4h-2v4h-2v-2h-4v2h-2v-4h-2z M4 6h2v2h-2z M10 6h2v2h-2z M0 8h2v5h-2z M14 8h2v5h-2z" fill="#a78bfa"/></g>
+  
+<!-- Outer pulsating plasma energy column (Infinite Loop) -->
+<rect class="bsurge" style="animation-delay:0.38s" x="801.5" y="376.0" width="8" height="8.0" rx="2" fill="#58a6ff"/>
+<!-- Inner bright ion core (Infinite Loop) -->
+<rect class="cpulse" style="animation-delay:0.38s" x="804.0" y="376.0" width="3.0" height="8.0" rx="1.5" fill="#58a6ff"/>
+<!-- Continuous High-Speed Tracer Laser Stream (Infinite Loop) -->
+<line class="stream" style="animation-delay:0.00s" x1="805.5" y1="384.0" x2="805.5" y2="376.0" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 8"/>
+<!-- Impact Sparks & Rotating Plasma Burst at Target (Infinite Loop) -->
+<g class="burst" style="animation-delay:0.38s" transform="translate(805.5, 376.0)">
+  <circle class="sring" cx="0" cy="0" r="4" fill="#58a6ff"/>
+  <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#ffffff"/>
+</g>
+
+  <polygon points="800.5,387 805.5,382 810.5,387" fill="#1b2431" stroke="#30363d"/><circle cx="805.5" cy="382" r="1" fill="#00ff66"/>
+  <text class="f" style="animation-delay:2.30s" x="805.5" y="406" font-family="'Silkscreen', monospace" font-size="8" text-anchor="middle" fill="#f0f6fc">NOV</text>
+</g>
+
+
+<!-- Player Mobile Starfighter (Patrolling & Rapid Blaster Fire) -->
+
+<g class="spatrol" transform="translate(440.0, 382)">
+  <g transform="translate(-12.6, -10.8) scale(0.9)"><!-- Fuselage & Wings --><path d="M13 0h2v4h-2z M12 4h4v3h-4z M11 7h6v4h-6z M6 11h16v3h-16z M0 14h28v4h-28z M0 18h4v3h-4z M24 18h4v3h-4z M10 14h8v5h-8z" fill="#f0f6fc"/><!-- Cockpit Visor --><rect x="13" y="6" width="2" height="4" fill="#00e5ff"/><!-- Wing Blasters --><rect x="1" y="9" width="2" height="5" fill="#00ff66"/><rect x="25" y="9" width="2" height="5" fill="#00ff66"/><!-- Thrusters (Infinite Loop) --><g class="thrust"><polygon points="12,21 14,27 16,21" fill="#ff9900"/><polygon points="13,21 14,25 15,21" fill="#ffff00"/></g><!-- Continuous Dual Blaster Volleys (Infinite Loop) --><g class="flaser"><rect x="1" y="-14" width="2" height="12" rx="1" fill="#00ff66"/><rect x="25" y="-14" width="2" height="12" rx="1" fill="#00ff66"/></g></g>
+</g>
+
+
+</svg>
