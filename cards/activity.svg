@@ -145,7 +145,7 @@
 
 <!-- Space Shooter Valley Header -->
 <g class="f" style="animation-delay:1.60s">
-  <text x="44" y="228" font-family="'Silkscreen', monospace" font-size="8.5" fill="#ffd700">SPACE DEFENDER // MONTHLY INVASION  •  369 TOTAL BLASTS</text>
+  <text x="44" y="228" font-family="'Silkscreen', monospace" font-size="8.5" fill="#ffd700">SPACE DEFENDER // MONTHLY INVASION  •  370 TOTAL BLASTS</text>
   <text x="836" y="228" text-anchor="end" font-family="'Silkscreen', monospace" font-size="8.5" fill="#00e5ff">SECTOR TARGET: APRIL MOTHERSHIP [159 HITS]</text>
 </g>
 
@@ -391,7 +391,7 @@
 </g>
 
 <g>
-  <text class="f" style="animation-delay:2.38s" x="805.5" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">3</text>
+  <text class="f" style="animation-delay:2.38s" x="805.5" y="264" font-family="'Silkscreen', monospace" font-size="7.5" text-anchor="middle" fill="#8b949e">4</text>
   <g class="abob" style="animation-delay:0.11s" transform="translate(798.7, 270.1) scale(0.85)"><path d="M6 0h4v2h-4z M4 2h8v2h-8z M2 4h12v4h-2v4h-2v-2h-4v2h-2v-4h-2z M4 6h2v2h-2z M10 6h2v2h-2z M0 8h2v5h-2z M14 8h2v5h-2z" fill="#a78bfa"/></g>
   
 <!-- Outer pulsating plasma energy column (Infinite Loop) -->
